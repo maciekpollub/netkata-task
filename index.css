@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px outset red;*/
+}
+
+body {
+    padding-top: 50px;
+}
+
+#brand_image {
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -20%;
+    justify-content: center;
+}
+
+.navbar-nav a {
+    color: white;
+    background-color: #555759;
+}
+
+.navbar-nav a:hover {
+    color: black;
+}
+
+.navbar-right a {
+    font-size: 11px;
+    border-left: 1px solid black;
+    opacity: 0.5;
+
+}
+
+.navbar-brand {
+    display: inline-block;
+    margin: auto;
+    display: flex;
+}
+.icon-bar {
+    border: 1px solid black;
+}
+
+.banner {
+    width: 100vw;
+    height: 100vh;  
+    background-image: url("./images/model-face-beautiful-black-and-white-407035.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#main_slogan {
+    text-transform: uppercase;
+    color: #696a6d;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.row.banner .row {
+    margin-top: 40%;
+}
+
+#submain_slogan {
+    text-transform: uppercase;
+    color: #cc946a;
+    text-align: center;
+}

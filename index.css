@@ -5,8 +5,8 @@
     /*border: 1px outset red;*/
 }
 
-body {
-    padding-top: 50px;
+.navbar-header {
+    background-color: transparent;
 }
 
 #brand_image {
@@ -52,13 +52,14 @@ body {
 
 #main_slogan {
     text-transform: uppercase;
-    color: #696a6d;
+    color: #646568;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    margin-top: 25%;
 }
 
 .row.banner .row {
-    margin-top: 40%;
+    margin-top: 1%;
 }
 
 #submain_slogan {
@@ -66,3 +67,113 @@ body {
     color: #cc946a;
     text-align: center;
 }
+
+#clinic, #face {
+    display: block;
+    margin: 20% auto;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.row.banner .col-xs-6 {
+    margin-top: 14%;
+}
+
+.call_to_action-left {
+    background-image: url("./images/girl-beauty-beautiful-great-160519.jpeg");
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.call_to_action-right {
+    background-image: url("./images/pexels-photo-305565.jpeg");
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    opacity: 0.7;
+}
+ 
+h4 {
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.col-xs-6 a {
+    display: flex;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 355px){
+    .row.banner .col-xs-6 {
+        margin-top: 17%;
+    }
+
+    #main_slogan {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media screen and (min-width: 380px){
+    .row.banner .col-xs-6 {
+        margin-top: 10%;
+    }
+
+    #main_slogan {
+        padding-top: 20%;
+    }
+}
+
+@media screen and (min-width: 505px){
+    .row.banner .col-xs-6 {
+        margin-top: 5%;
+    }
+
+    #main_slogan {
+        padding-top: 12%;
+    }
+}
+
+@media screen and (min-width: 585px){
+    #main_slogan {
+        padding-top: 10%;
+    }
+
+    .row.banner .col-xs-6 {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 610px){
+    .call_to_action-left, .call_to_action-right {
+        width: 180px;
+        height: 180px;
+    }
+
+    h4 {
+        letter-spacing: 4px;
+        font-size: 1.8em;
+    }
+
+    #main_slogan {
+        padding-top: 5%;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .row.banner .col-xs-6 {
+        margin-top: 2%;
+    }
+}
+
